@@ -103,7 +103,7 @@ class TopologyParser:
                     d_node.add_connected_device(line)
         logger.info('Finish to parser file')
 
-    def save_parser_net(self, file_path):
+    def save_parser_net(self, file_path='topo_net.pickle'):
         with open(file_path, 'wb') as f:
             pickle.dump(self, f, protocol=pickle.HIGHEST_PROTOCOL)
 
