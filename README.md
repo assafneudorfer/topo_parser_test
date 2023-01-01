@@ -31,3 +31,9 @@ flask run -h 0.0.0.0 -p 5000
 ```
 
 And use improve_parser.py like topo_parser.py
+
+
+To run unitest:
+```
+python -m pytest
+```
