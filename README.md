@@ -16,15 +16,16 @@ python topp_parser.py -p -o (optional)
 python topo_parser.py -h
 ```
 Usage:
-topo_parser.py [-f FILE -o FILE]
-topo_parser.py [-p -o FILE]
-topo_parser.py -h | --help
+topo_parser.py [-f FILE -o FILE] 
+topo_parser.py [-p -o FILE]  
+topo_parser.py -h | --help  
 
--h --help    show this
--f --file FILE      specify output file
--o --output FILE     output pickle file path [Default: topo_net.pickle]
+-h --help    show this  
+-f --file FILE      specify output file  
+-o --output FILE     output pickle file path [Default: topo_net.pickle]  
 -p --print  sorted output
-To run the improve topo_parser run the flask server before.
+  
+To run the improve topo_parser run the flask server before.  
 
 ```
 flask run -h 0.0.0.0 -p 5000
